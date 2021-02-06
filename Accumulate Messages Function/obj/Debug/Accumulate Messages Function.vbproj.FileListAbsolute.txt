@@ -1,0 +1,11 @@
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\bin\Debug\Accumulate Messages Function.exe.config
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\bin\Debug\Accumulate Messages Function.exe
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\bin\Debug\Accumulate Messages Function.pdb
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\bin\Debug\Accumulate Messages Function.xml
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.vbprojAssemblyReference.cache
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate_Messages_Function.Resources.resources
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.vbproj.GenerateResource.cache
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.vbproj.CoreCompileInputs.cache
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.exe
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.xml
+C:\Users\aftanom\Documents\GitHubRepos\Accumulate Messages Function\Accumulate-Messages-Function-\Accumulate Messages Function\obj\Debug\Accumulate Messages Function.pdb
