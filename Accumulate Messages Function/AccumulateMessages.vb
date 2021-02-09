@@ -7,21 +7,22 @@ Option Explicit On
 'Accumulate Message Function
 'https://github.com/AftaAnfi/Accumulate-Messages-Function.git
 
-Module Module1
+Module AccumulateMessages
 
     Sub Main()
 
         'add ooof to total user messages 
-        UserMessages("Ooof", False)
+        UserMessages("Message 1", False)
 
         'add another ooof to total messages and show in console
-        Console.Write(UserMessages("Ooof2", False))
+        Console.Write(UserMessages("Message 2", False))
 
         'reset messages
-        Console.Write(UserMessages("", True))
+        'should not have message clear in the console due to clearing the messages is done after the input
+        Console.Write(UserMessages("Message Clear", True))
 
         'add another ooof to total messages and show in console (only one due to messages being cleared)
-        Console.Write(UserMessages("Ooof3", False))
+        Console.Write(UserMessages("Message 3", False))
 
 
         Console.ReadLine()
