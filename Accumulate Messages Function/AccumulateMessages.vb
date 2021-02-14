@@ -8,26 +8,48 @@ Option Explicit On
 'https://github.com/AftaAnfi/Accumulate-Messages-Function.git
 
 Module AccumulateMessages
+    Dim tempString As String
+    Dim runProgram As Boolean = True
 
     Sub Main()
+        While runProgram
+            Console.Clear()
+            Console.WriteLine("Inputs for following functions")
+            Console.WriteLine("C - clear messages")
+            Console.WriteLine("S - show messages")
+            Console.WriteLine("Q - quit program")
+            Console.WriteLine("any other input to enter message")
 
-        'add ooof to total user messages 
-        UserMessages("Message 1", False)
+            'set console input to a variable
+            tempString = Console.ReadLine()
 
-        'add another ooof to total messages and show in console
-        Console.Write(UserMessages("Message 2", False))
-
-        'reset messages
-        'should not have message clear in the console due to clearing the messages is done after the input
-        Console.Write(UserMessages("Message Clear", True))
-
-        'add another ooof to total messages and show in console (only one due to messages being cleared)
-        Console.Write(UserMessages("Message 3", False))
-
-
-        Console.ReadLine()
+            Select Case tempString
+                Case "C"
+                    'clear messages
+                    UserMessages("", True)
+                Case "S"
+                    'return stored messages
+                    If UserMessages("", False) = "" Then
+                        Console.WriteLine("There are no saved messages.")
+                    Else
+                        Console.Write(UserMessages("", False))
+                    End If
+                Case "Q"
+                    'Quit application
+                    Console.WriteLine("Thanks, have a good day!")
+                    System.Threading.Thread.Sleep(2000)
+                    End
+                Case Else
+                    'add input to messages
+                    UserMessages(tempString, False)
+            End Select
+            Console.WriteLine("Press any key to continue")
+            Console.ReadKey(False)
+        End While
 
     End Sub
+
+
 
     'Function to add messages or clear messages
     Function UserMessages(ByVal newMessage As String, ByVal clear As Boolean) As String
